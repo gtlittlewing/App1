@@ -18,7 +18,7 @@ namespace App1
         private SystemBackdropConfiguration ConfigurationSource { get; set; }
         private DesktopAcrylicController AcrylicController { get; set; }
         private MicaController MicainfoController { get; set; }
-        private BackdropType CurrentBackdropType { get; set; } = BackdropType.Micainfo;
+        private BackdropType CurrentBackdropType { get; set; } = BackdropType.DesktopAcrylic; //コメントテスト
 
         public MainWindow()
         {
