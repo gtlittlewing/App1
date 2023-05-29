@@ -22,7 +22,9 @@ namespace App1
 
         public MainWindow()
         {
-            InitializeComponent();
+            this.InitializeComponent();
+            this.ExtendsContentIntoTitleBar = true;
+            this.SetTitleBar(AppTitleBar);
 
             ((FrameworkElement)this.Content).RequestedTheme = ElementTheme.Default;
 
